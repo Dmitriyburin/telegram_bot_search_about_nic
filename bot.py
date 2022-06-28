@@ -16,7 +16,7 @@ if os.path.exists(dotenv_path):
 TOKEN = os.environ.get('TOKEN')
 
 # смена рабочей директории
-os.chdir(os.getcwd() + '/blackbird')
+os.chdir(os.getcwd() + '/submod')
 print(os.getcwd())
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
